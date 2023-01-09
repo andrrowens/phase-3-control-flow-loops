@@ -8,6 +8,12 @@ describe '#happy_new_year' do
     expect { happy_new_year }.to output(hny_output).to_stdout
   end
 
+
+counter = 10
+until counter = 0
+  puts counter 
+  counter -= 1
+  puts 'Happy New Year'
 end
 
 describe '#fizzbuzz_printer' do
